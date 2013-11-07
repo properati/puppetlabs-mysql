@@ -94,8 +94,8 @@ class mysql::params {
     }
 
     'Debian': {
-      $client_package_name = 'mysql-client'
-      $server_package_name = 'mysql-server'
+      $client_package_name = 'percona-server-client'
+      $server_package_name = 'percona-server-server'
 
       $basedir             = '/usr'
       $config_file         = '/etc/mysql/my.cnf'
